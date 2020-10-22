@@ -22,7 +22,7 @@ Esta práctica tiene los siguientes objetivos operacionales y competenciales :
    +    Iniciación al concepto de flujo de trabajo como herramienta básica para planificar experimentos y procesos de análisis de datos ecológicos. 
    +    Fijar los conocimientos que relacionan la distribución de los distintos tipos de ecosistemas (biomas) con el clima (precipitación y temperatura). Estos conocimientos fueron adquiridos en las sesiones teóricas. 
 
-Este documento contiene la misma información que [esta](https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/protocolo_biomas_vs_clima_v2020-2021.pptx) presentación, que se usará en clase como guía para la práctica. 
+Este documento contiene la misma información que [esta](https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/protocolo_biomas_vs_clima_v2020-2021.pptx) presentación, que se usará en clase como guía para la práctica. Por último, en [este](https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/guion_practica_biomas_vs_clima.pdf) enlace puedes descargar este mismo documento en formato pdf.
 
 
 ## Contextualización ecológica
