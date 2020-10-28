@@ -184,12 +184,14 @@ En QGIS las capas de puntos se crean usando formato **shapefile** (el mismo form
 
   + Nombre y ubicación del archivo. Pincha en los tres puntos que hay a la derecha y navega hacia la carpeta donde quieras guardar el archivo (que debe de ser la misma en la que tienes las demás capas). Se abrirá la ventana de navegación de Windows. Una vez en la carpeta elegida, teclea: "puntos" (sin comillas...). Dale a guardar.
 
-  + Volveremos a la ventana anterior. En ella vamos a crear un nuevo campo dentro de la capa. Recuerda que cada capa tiene asociada una tabla de atributos que permite asignar características a cada uno de los elementos geométricos. Ejemplo: los nombres de los ríos en una capa de ríos. En la ventana buscamos la opción de crear "nuevo campo". Allí ponemos el nombre del nuevo campo: "*bioma_id*". Indicamos que será un campo de tipo "*Número entero*". Luego pulsamos en la opción de "*añadir a la lista de campos*".
+  + Volveremos a la ventana anterior. Donde pone "*tipo de geometría*", has de asegurarte de seleccionar "punto". Y en el sistema de referencia debemos poner "*EPSG:3857*".
+
+  + En ella vamos a crear un nuevo campo dentro de la capa. Recuerda que cada capa tiene asociada una tabla de atributos que permite asignar características a cada uno de los elementos geométricos. Ejemplo: los nombres de los ríos en una capa de ríos. En la ventana buscamos la opción de crear "nuevo campo". Allí ponemos el nombre del nuevo campo: "*bioma_id*". Indicamos que será un campo de tipo "*Número entero*". Luego pulsamos en la opción de "*añadir a la lista de campos*".
 
   + Una vez hecho lo anterior, pulsamos aceptar. QGIS habrá creado un shapefile vacío llamado *puntos*. Si observamos este fichero de formas en el explorador de Windows, veremos que contiene varios archivos con distintas extensiones.
 
   + Al aceptar, la nueva capa se carga automáticamente en la vista de QGIS, como puedes ver en la siguiente figura.
-
+  
     
 
 <img src="https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/images/puntos_1.png" alt="biomes" style="zoom:55%;" />
