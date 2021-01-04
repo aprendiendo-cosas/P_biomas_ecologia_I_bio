@@ -25,6 +25,10 @@ Esta práctica tiene los siguientes objetivos operacionales y competenciales :
 Este documento contiene la misma información que [esta](https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/protocolo_biomas_vs_clima_v2020-2021.pptx) presentación, que se usará en clase como guía para la práctica. Por último, en [este](https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/guion_practica_biomas_vs_clima.pdf) enlace puedes descargar este mismo documento en formato pdf.
 
 
+<div style="page-break-after: always; break-after: page;"></div>
+
+
+
 ## Contextualización ecológica
 
  ([Whittaker, R.H. 1962](https://link.springer.com/article/10.1007%2FBF02860872)) clasificó los distintos tipos de biomas existentes en la Tierra en función de la precipitación y temperatura. Su trabajo constató la relación existente entre la distribución de estos dos factores climáticos y los biomas a escala global. 
@@ -43,7 +47,7 @@ En esta práctica aprenderemos a construir una gráfica como la de arriba. Esto 
 
 En definitiva, haremos algo parecido a lo que hace [esta](https://media.hhmi.org/biointeractive/biomeviewer_web/index.html?_ga=2.261737284.818222928.1535646280-907606146.1534976570) web, pero de forma algo más "casera" (y también útil para tu aprendizaje). Cuando entres en la aplicación haz doble clik en cualquier punto del mundo. Se mostrará una ficha con los datos climáticos básicos y con algunos datos ecológicos del bioma en cuestión. En la parte inferior de dicha ficha verás un botón que indica "*compare*". Esto te permitirá comparar dos puntos diferentes desde el punto de vista que nos ocupa. 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Material 
 Para lograr el objetivo que nos hemos planteado y construir la gráfica de Whittaker, usaremos los siguientes conjuntos de datos:
@@ -66,7 +70,7 @@ Las fuentes de datos descritas hasta aquí se denominan con el término genéric
 
 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Metodología y flujo de trabajo
 
@@ -74,17 +78,11 @@ Para construir la gráfica deseada, seleccionaremos una serie de puntos en todo 
 
 La secuencia de pasos descrita brevemente en el párrafo anterior es lo que se denomina "[flujo de trabajo](https://en.wikipedia.org/wiki/Workflow)" (*workflow* en inglés). Se trata de una secuencia ordenada de acciones o pasos que se llevan a cabo de una manera sistemática para conseguir un objetivo concreto. El concepto de flujo de trabajo es muy habitual en ciencias como la ecología, en la que es necesario analizar multitud de datos para satisfacer un objetivo determinado. Es muy útil describir el flujo de trabajo, bien en modo texto (párrafo inicial de esta sección), o bien en modo gráfico, como puedes ver a continuación:
 
-
-
 <img src="https://github.com/Aprendiendo-ecologia/practica_biomas_clima/raw/main/downloadable_files/images/workflow_bioma_vs_clima.png" alt="biomes" style="zoom:55%;" />
 
+Los números morados que aparecen en la imagen superior son los distintos pasos del flujo de trabajo que aplicaremos. Los rombos se corresponden con procesos y análisis que aplicaremos sobre los datos (representados por rectángulos o por trapecios). Todos los procedimientos que están sobre un fondo azul, se realizarán usando QGIS. Los que están sobre un fondo naranja se harán usando R. En la siguiente sección describiremos con detalle cada uno de los pasos de este flujo de trabajo.
 
-
-Los números morados que aparecen en la imagen superior son los distintos pasos del flujo de trabajo que aplicaremos. Los rombos se corresponden con procesos y análisis que aplicaremos sobre los datos (representados por rectángulos o por trapecios). Todos los procedimientos que están sobre un fondo azul, se realizarán usando QGIS. Los que están sobre un fondo naranja se harán usando R. 
-
-En la siguiente sección describiremos con detalle cada uno de los pasos de este flujo de trabajo.
-
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Paso a paso ##
 
@@ -300,7 +298,7 @@ Dado que R es un lenguaje de programación, interactuamos con él mediante líne
 
 Para hacer que R entienda lo que se muestra arriba, debemos usar un lenguaje inteligible para él. Lo anterior, traducido a R, se escribe así:
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ```R
 #DEFINIMOS EL DIRECTORIO DE TRABAJO
@@ -387,7 +385,7 @@ Veamos paso a paso y con imágenes qué quiere decir este código.
 
 
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Discusión de los resultados y ejercicio
 
